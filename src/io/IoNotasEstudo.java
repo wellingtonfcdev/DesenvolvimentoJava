@@ -16,5 +16,22 @@ public class IoNotasEstudo {
         int valorDitidado = scanner.nextInt();
         System.out.println("Valor digitado: " + valorDitidado);
         scanner.close();
+
+        /*
+         * Saída de dados
+         * 
+         * Tipos de formatação no printf:
+         * %c = Caractere simples (char)
+         * %s = Cadeia de caracteres (String)
+         * %d = Inteiro decimal com sinal (int)
+         * %i = Inteiro decimal com sinal (int)
+         * %ld = Inteiro decimal longo (long)
+         * %f = Real em ponto flutuante (float ou double)
+         * %e = Número real em notação científica com o “e” minúsculo (float ou double)
+         * %E = Número real em notação científica com o “E” maiúsculo (float ou double)
+         * %% = Imprimir o próprio caractere %
+         */
+        float qualquerNumero = 3.0f;
+        System.out.printf("O número digitado foi %f", qualquerNumero);
     }
 }
